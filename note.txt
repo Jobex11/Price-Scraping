@@ -1,5 +1,7 @@
     ==== WEB SCRAPING ====
-Time: 1:01:08
+Time: 1:20:04
+
+[WebScraping => Software as a Service]
 
 
 a program scraping bot  
@@ -97,10 +99,16 @@ but rather <Images /> gotten form next/image
 
 ===== TO SCRAPE OUR DATA =====
 56:35
-
 -we will be using [bright data] to scrape 
+Axios-> is used to make an api call
+Cheerio-> Is fast, flexible and elegant library for  
+for parsing and manipulating  HTML and XML 
+- web scraping itself is parsing the html content you see.
+
 ==== DEPENDENCIES INSTALLATION ====
 - npx create-next-app@latest ./ 
 [to create next application in the current root directory]
 - npm install react-responsive-carousel 
 [it works with nextjs application]
+- npm install axios cheerio 
+[axios make http calls and cheerio to quickly  parse html]
