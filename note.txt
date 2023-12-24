@@ -1,0 +1,106 @@
+    ==== WEB SCRAPING ====
+Time: 1:01:08
+
+
+a program scraping bot  
+- handling CAPTCHAs 
+- anti- scraping measures
+- IP rotation 
+- Anything else
+using 
+
+ Technologies 
+ - Cron -> to automate the scraping process at a given time frame. 
+ e.g do something for me everytime in everyday. 
+
+data is the most important asset in the modern age. 
+
+
+What is webscraping => Is Grabing useful info from a website 
+without directly taking their permission to do so. 
+why we webscrape 
+- Creating new products 
+- Automation 
+- Checking out what our competitors are up to. 
+Many big organizations scrape data in varous format. 
+images, video, text, review, pricing 
+
+=> Difference between a webscraper and a webcrawler 
+they both extract information 
+
+Web Crawlers 
+- navigates the web indexes content 
+- follows links to discover new pages 
+- SEO analysis 
+
+WebScraper 
+- Extracts specific data from the web pages 
+- Targets individual pages for data extraction 
+- any piece of data 
+- Example of general usage is 
+Dataset generation for Ml training
+
+WebCrawler is what google and other sites used to index our websites 
+Scraping target a specic sites. 
+
+=> HOW DOES WEB SCRAPING WORKS 
+1 Sending HTTP Requests 
+2. 
+3. 
+4.
+5. 
+if they notice anything fishy they immediately block your IP.
+Ways a website can block you 
+- using reCAPTHA
+- IP blocking and Rate Limiting
+- Dynamic content.
+
+
+=> One of the most populare scrappers is PUPPETEER
+(A headless browsers)
+- it has no visual interface 
+- It runs in the background 
+- allows us to do automated 
+Puppeteer is developed  by google  
+
+Puppeteer->
+Cheerio -> helps us parse the html content easily
+Bright data ->
+
+-why scraping is important 
+-how to do it 
+-what are the obstables of scraping 
+
+
+========   CODE   =======
+Time -> 16:45
+
+Nextjs enables you to create a fullstack web applications by extending the  
+features, and integrating powerful Rust-based javascript tooling for the  
+fastest builds. 
+
+Layout-> is allowing you to share different part of the application
+across different pages. 
+
+-> if you find any tailwind shortcuts hard to understand 
+go to  [tailwind.css] to find the meaning.
+
+-> Images and Links are imported in nextjs applications. 
+
+-using  [ctrl + space] to  import a components.
+- why we turn searchbar into a client side; 
+Because we are going to be using interactivity and hooks 
+
+-note react does'nt support the use of html images <img> 
+but rather <Images /> gotten form next/image
+
+
+===== TO SCRAPE OUR DATA =====
+56:35
+
+-we will be using [bright data] to scrape 
+==== DEPENDENCIES INSTALLATION ====
+- npx create-next-app@latest ./ 
+[to create next application in the current root directory]
+- npm install react-responsive-carousel 
+[it works with nextjs application]
