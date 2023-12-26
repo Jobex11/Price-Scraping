@@ -1,5 +1,5 @@
     ==== WEB SCRAPING ====
-Time: 1:20:04
+Time: 1:35:12
 
 [WebScraping => Software as a Service]
 
@@ -104,6 +104,18 @@ Axios-> is used to make an api call
 Cheerio-> Is fast, flexible and elegant library for  
 for parsing and manipulating  HTML and XML 
 - web scraping itself is parsing the html content you see.
+
+
+
+=====>>>> write javascript replace function that removes non digit characters from a string
+==== FURTHER LEARNING  =====
+- Regular expressions 
+e.g (/[^\d.]/g, "")
+
+=====  BUGS ALL OVER THE CODE  =======
+1. 1:27:00 
+currentPrice is printing double values. 
+
 
 ==== DEPENDENCIES INSTALLATION ====
 - npx create-next-app@latest ./ 
