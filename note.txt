@@ -1,5 +1,5 @@
     ==== WEB SCRAPING ====
-Time: 1:35:12
+Time: 1:43:53
 
 [WebScraping => Software as a Service]
 
@@ -125,3 +125,7 @@ currentPrice is printing double values.
 [it works with nextjs application]
 - npm install axios cheerio 
 [axios make http calls and cheerio to quickly  parse html]
+
+
+WorkingLink 
+=> https://www.amazon.com/Mac-Book-Pro-Charger-Compatible/dp/B0B3DNW8D8/ref=sr_1_1_sspa?crid=3A7HL1P9EX9V6&keywords=macbook+air+with+discount+rate&qid=1703597735&sprefix=mackbook+air+with+%2Caps%2C2858&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
