@@ -4,6 +4,7 @@ Time: 1:35:12
 [WebScraping => Software as a Service]
 
 
+
 a program scraping bot  
 - handling CAPTCHAs 
 - anti- scraping measures
