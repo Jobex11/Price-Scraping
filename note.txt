@@ -1,5 +1,5 @@
     ==== WEB SCRAPING ====
-Time: 1:48:32
+Time: 2:36:17
 
 [WebScraping => Software as a Service]
 
@@ -106,7 +106,8 @@ Cheerio-> Is fast, flexible and elegant library for
 for parsing and manipulating  HTML and XML 
 - web scraping itself is parsing the html content you see.
 
-
+====  BACKEND AND DATABASE IMPLEMENTATION =====
+time: 1:48:32
 
 =====>>>> write javascript replace function that removes non digit characters from a string
 ==== FURTHER LEARNING  =====
@@ -117,6 +118,14 @@ e.g (/[^\d.]/g, "")
 1. 1:27:00 
 currentPrice is printing double values. 
 
+2. maximum call stack exceeded usually occur when there is
+an infinite loop in our code.
+
+======  CRON jobs  ======
+time 2:06:26
+we are going to let the update from the mongoose server happens automatically 
+using => CRON
+
 
 ==== DEPENDENCIES INSTALLATION ====
 - npx create-next-app@latest ./ 
@@ -125,7 +134,8 @@ currentPrice is printing double values.
 [it works with nextjs application]
 - npm install axios cheerio 
 [axios make http calls and cheerio to quickly  parse html]
-
+-npm install mongoose 
+[database to store information]
 
 WorkingLink 
 => https://www.amazon.com/Mac-Book-Pro-Charger-Compatible/dp/B0B3DNW8D8/ref=sr_1_1_sspa?crid=3A7HL1P9EX9V6&keywords=macbook+air+with+discount+rate&qid=1703597735&sprefix=mackbook+air+with+%2Caps%2C2858&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
