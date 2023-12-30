@@ -1,5 +1,5 @@
     ==== WEB SCRAPING ====
-Time: 2:36:17
+Time: 2:41:33
 
 [WebScraping => Software as a Service]
 
