@@ -2,7 +2,7 @@
 Time: 3:12:57
 (works very well) 
 Time: 3:32:24
-time: 3:46:23
+time: 3:47:07
 
 
 [WebScraping => Software as a Service]
@@ -142,6 +142,9 @@ Using cron job to automate allt the process all by itself
 ======  HOW TO DEPLOY IT IN CRON JOBS  ======
 time: 3:45:23 
 
+=> .env is different form .env.local 
+always use .env.local to makesure is deployed only on your device 
+and is not commited.
 
 =====  BUGS ALL OVER THE CODE  =======
 1. 1:27:00 
