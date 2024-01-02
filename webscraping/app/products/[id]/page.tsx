@@ -145,8 +145,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
               />
             </div>
           </div>
-          {/* MODAL */}
-          <Modal />
+          <Modal productId={id} />
         </div>
       </div>
       <div className="flex flex-col gap-16 ">
@@ -174,7 +173,6 @@ const ProductDetails = async ({ params: { id } }: Props) => {
         </button>
       </div>
 
-      {/*Similar products*/}
       {similarProducts && similarProducts?.length > 0 && (
         <div className="py-14 flex flex-col gap-2 w-full">
           <p className="section-text">Similar Products</p>

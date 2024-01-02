@@ -1,5 +1,9 @@
     ==== WEB SCRAPING ====
-Time: 2:44:27
+Time: 3:12:57
+(works very well) 
+Time: 3:32:24
+time: 3:33:46
+
 
 [WebScraping => Software as a Service]
 
@@ -114,6 +118,25 @@ time: 1:48:32
 - Regular expressions 
 e.g (/[^\d.]/g, "")
 
+======  CRON jobs  ======
+time 2:06:26
+we are going to let the update from the mongoose server happens automatically 
+using => CRON
+
+======   MODAL  ======
+2:57:13
+
+Dialogue => form Headles UI 
+Completely unstyled, fully accessible UI components, designed to  
+integrate beautifully with Tailwind CSS.
+
+dialog(Modal)
+
+=> is not properlly  working
+
+=========  HOW TO AUTOMATE THE PROCESS  ==========
+TIME 3:33:46
+
 =====  BUGS ALL OVER THE CODE  =======
 1. 1:27:00 
 currentPrice is printing double values. 
@@ -121,11 +144,7 @@ currentPrice is printing double values.
 2. maximum call stack exceeded usually occur when there is
 an infinite loop in our code.
 
-======  CRON jobs  ======
-time 2:06:26
-we are going to let the update from the mongoose server happens automatically 
-using => CRON
-
+=> read abour  [SNTP Email transfer]
 
 ==== DEPENDENCIES INSTALLATION ====
 - npx create-next-app@latest ./ 
@@ -136,8 +155,7 @@ using => CRON
 [axios make http calls and cheerio to quickly  parse html]
 -npm install mongoose 
 [database to store information]
-
-WorkingLink 
-=> https://www.amazon.com/Mac-Book-Pro-Charger-Compatible/dp/B0B3DNW8D8/ref=sr_1_1_sspa?crid=3A7HL1P9EX9V6&keywords=macbook+air+with+discount+rate&qid=1703597735&sprefix=mackbook+air+with+%2Caps%2C2858&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
-  
-=> https://www.amazon.com/Apple-MacBook-13-inch-256GB-Storage/dp/B08N5KWB9H/ref=sr_1_1?crid=30VQJ38SB5XUB&keywords=macbook%2Bair&qid=1704026272&sprefix=macbook%2Bia%2Caps%2C414&sr=8-1&th=1
+-npm install @headlessui/react
+-npm install nodemailer
+[nodemailer may not work because is not a dev dependencies]
+-npm install --save-dev @types/nodemailer
