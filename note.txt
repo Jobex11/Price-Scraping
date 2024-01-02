@@ -2,7 +2,7 @@
 Time: 3:12:57
 (works very well) 
 Time: 3:32:24
-time: 3:33:46
+time: 3:45:23
 
 
 [WebScraping => Software as a Service]
@@ -136,6 +136,12 @@ dialog(Modal)
 
 =========  HOW TO AUTOMATE THE PROCESS  ==========
 TIME 3:33:46
+
+Using cron job to automate allt the process all by itself
+
+======  HOW TO DEPLOY IT IN CRON JOBS  ======
+time: 3:45:23 
+
 
 =====  BUGS ALL OVER THE CODE  =======
 1. 1:27:00 

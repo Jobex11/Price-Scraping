@@ -1,12 +1,8 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { extractCurrency, extractDescription, extractPrice } from "../utils";
-import { Average } from "next/font/google";
 export async function scrapeAmazonProduct(url: string) {
   if (!url) return;
-
-  //curl --proxy brd.superproxy.io:22225 --proxy-user brd-customer-hl_aa1e9d83-zone-unblocker:afu91ybkwmkr -k https:
-  //lumtest.com/myip.json
 
   // BrightData proxy configuration
   const username = String(process.env.BRIGHT_DATA_USERNAME);
@@ -85,11 +81,11 @@ export async function scrapeAmazonProduct(url: string) {
       category: "category",
       reviewsCount: 100,
       starts: 4.5,
-      isOutOFStock: outOfStock,
+      isOutOfStock: outOfStock,
       description,
       lowestPrice: Number(currentPrice) || Number(originalPrice),
       highestPrice: Number(originalPrice) || Number(currentPrice),
-      Average: Number(currentPrice) || Number(originalPrice),
+      AveragePrice: Number(currentPrice) || Number(originalPrice),
     };
 
     return data;
