@@ -2,7 +2,7 @@
 Time: 3:12:57
 (works very well) 
 Time: 3:32:24
-time: 3:45:23
+time: 3:46:23
 
 
 [WebScraping => Software as a Service]
